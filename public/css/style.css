@@ -1,0 +1,212 @@
+header {
+    background-image: url(/public/img/images/banner-overlay-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100dvw;
+    background-color: black;
+    overflow-x: hidden;
+    
+    
+    font-family: myFont;
+
+}
+
+
+
+.logoheader {
+   width: 40;
+   height: 40%;
+   margin: 30px 10px;
+   margin-left: 100px;
+}
+
+.headertop {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+.headerbot {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.headertopleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.headertopright {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-right: 300px;
+    
+}
+
+.nav {
+    color: antiquewhite;
+}
+
+.contactUs {
+    width: 100px;
+    height: 40px;
+    background-color: #0bd3ee;
+    border-radius: 20px;
+    border: none;
+    
+    
+    
+}
+
+.headerbotleft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    margin-left: 300px;
+    color: antiquewhite;
+    z-index: 1;
+
+}
+
+.headerbotleft h1 {
+    
+    margin-top: -20px;
+    font-size: 50px;
+}
+
+.headerbotleft p {
+    
+    color: lightblue;
+    margin-bottom: 40px;
+}
+
+
+.start_button {
+    display: flex;
+    gap: 15px
+}
+
+.start_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    background-color: #0bd3ee;
+    height:40px ;
+    width: 110px ;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.contact_start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    background-color: #2053a1;
+    height:40px ;
+    width: 100px ;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.headerbotright {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.image-pc {
+    width: 80%;
+    height: 80%;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+
+/*-------responsive header- start------------------------------*/
+
+
+@media (max-width:1024px) {
+    .headertopright {margin-right: 100px;
+
+    }
+
+}
+
+
+@media (max-width:768px) {
+    .headertopright {margin-right: 50px;
+
+
+    }
+    .headertopright {font-size: smaller;
+
+    }
+
+    .headerbotleft h1 {font-size: 25px;
+
+    }
+
+    .headerbotleft {margin-left: 240px;
+
+    }
+}
+/* ---------responsive tablette fin, debut responsive mobile L-----*/
+
+@media (max-width:426px) {
+    .headertopright {display: flex;
+                    flex-direction: column;
+                    margin-top: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    margin-right: 150px;
+    }
+    
+    .image-pc {margin-right: 400px;
+                z-index: 0;
+                width: 100%;
+                height: 100%;
+                opacity: calc(0.5);
+    } 
+
+    
+    .logoheader {width: 20;
+                height: 20%;
+                margin-left: -50px;
+                margin-top: -50px;
+    }
+
+
+
+}
+
+
+
+
+/*----------------------fin responsive heder---- debut section1----------*/
+
+.sec1top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
