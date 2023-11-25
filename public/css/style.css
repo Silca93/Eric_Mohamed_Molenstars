@@ -202,7 +202,7 @@ header {
 
 
 
-/*----------------------fin responsive heder---- debut section1----------*/
+/*----------------------fin responsive header---- debut section1----------*/
 
 .sec1 {
     background-color: #0a1650;
@@ -291,6 +291,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     background-image: url(/public/img/images/dots-img.png); 
     background-repeat: no-repeat;
     background-position: 1250px;
@@ -307,6 +308,7 @@ header {
     justify-content: flex-end;
     width: 50%;
     margin-bottom: 100px;
+    
 }
 
 .girl {
@@ -327,7 +329,7 @@ header {
 
 .sec1botright h4 {
     color:#0bd3ee;
-    ;
+    
 }
 
 .sec1botright p {
@@ -355,6 +357,10 @@ header {
 .sec1botright p  {
     line-height: 2;
 }
+
+
+/*---------------------fin du css pour section 1------------debut du responsive---*/
+
 
 
 
