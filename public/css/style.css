@@ -369,6 +369,135 @@ header {
 
 
 
+/*--------fin du responsive de sec1-- et debut css sec 2------------------------*/
+
+.sec2 {
+    font-family: myFont;
+    background-image: url(/public/img/images/banner-overlay-img.png);
+    }
+
+.sec2top {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wedo {
+    color: #0bd3ee;
+}
+
+.sec2mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.sec2mid h4 {
+    color: white;
+}
+
+.sec2mid p {
+    color: lightgray; 
+    opacity: calc(0.5);
+   
+
+
+    
+}
+
+.sec2mid1 {
+    background-color: #0a1650;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 20px 20px;
+    padding-top: 40px;
+}
+
+.itemimg {
+    width: 40%;
+    height: 30%;
+}
+
+.sec2mid2 {
+    background-color: #0a1650;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 20px 20px;
+    padding-top: 40px;
+}
+
+.itemimg {
+    width: 40%;
+    height: 30%;
+}
+
+.sec2mid3 {
+    background-color: #0a1650;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 20px 20px;
+    padding-top: 40px;
+}
+
+.itemimg {
+    width: 40%;
+    height: 30%;
+}
+
+.sec2mid4 {
+    background-color: #0a1650;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 30px 25px;
+    padding-top: 40px;
+}
+
+.itemimg {
+    width: 40%;
+    height: 30%;
+}
+
+.sec2bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.Getstartedbutton {
+    width: 150px;
+    height: 40px;
+    background-color: #0bd3ee;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+
+
 
 
 
