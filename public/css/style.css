@@ -224,7 +224,7 @@ header {
 
 
 
-
+/*-------------------------<DEBUT DU FOOTER>------------------------------*/
 
 body{
     margin: 0;
@@ -263,6 +263,11 @@ footer{
     color: rgba(255, 255, 255, 0.518);
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
 .footer-div1{
     display: flex;
     justify-content: center;
@@ -355,5 +360,7 @@ form{
     width: 100%;
     color: rgba(255, 255, 255, 0.518);
     border-top: solid rgba(255, 255, 255, 0.518);
+    flex-wrap: wrap;
 }
 
+/*-------------------------<FIN DU FOOTER>------------------------------*/
