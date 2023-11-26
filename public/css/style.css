@@ -1693,3 +1693,64 @@ form{
 
 
 /*-------------------------<FIN DU FOOTER>------------------------------*/
+
+
+
+
+
+/*----------------------<DEBUT SECTION4>----------------------------------*/
+
+.sec4{
+    background-image: url(/public/img/images/banner-overlay-img.png);
+    background-repeat: no-repeat;
+    background-position: -300px -200px;
+    background-color: #122061ff ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vw;
+}
+
+.sec4-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+.sec4-div1 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 0;
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 5%;
+    width: 28vh;
+    height: 24vh;
+}
+
+.sec4 h2{
+    color: white;
+}
+
+.sec4 h6{
+    color: rgba(0, 149, 255, 0.928);
+}
+
+.sec4 p{
+    color: rgba(255, 255, 255, 0.518);
+}
+
+.sec4-div2{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 29%;
+}
+
+
+/*----------------------<DEBUT SECTION4>----------------------------------*/
