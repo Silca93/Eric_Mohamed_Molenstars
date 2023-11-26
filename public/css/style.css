@@ -268,7 +268,7 @@ header {
     justify-content: center;
     flex-direction: row-reverse;
     gap: 3%;
-    
+    flex-wrap: wrap;
 }
 
 .card{
