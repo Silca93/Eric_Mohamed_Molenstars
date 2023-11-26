@@ -12,8 +12,8 @@ header {
 
 
 .logoheader {
-   width: 40;
-   height: 40%;
+   width: 50;
+   height: 60%;
    margin: 30px 10px;
    margin-left: 100px;
 }
@@ -141,6 +141,7 @@ header {
 
 .headerbotright {
     width: 50%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,7 +154,9 @@ header {
     width: 80%;
     height: 80%;
     margin-right: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+
 }
 
 
@@ -243,6 +246,7 @@ header {
 
 .partners {
     color: #0bd3ee;
+    margin-top: 50px;
 }
 .sec1mid {
     display: flex;
