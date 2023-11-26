@@ -514,6 +514,165 @@ header {
 /*----------- Fin de la sec 2 ------- pas besoin de respoonsive ici --------debut sec3----*/
 
 
+.sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0a1650;
+    font-family: myFont;
+}
+.sec3left {
+    width: 50%;
+    background-color:#0a1650;
+    background-image: url(/public/img/images//dots-img2.png);
+    background-size: 230px 300px;
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+    margin-top: 100px;
+    
+    
+    
+}
+
+.sec3lefttop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:start;
+    margin-left: 350px;
+    margin-top: -40px;
+    
+}
+
+.sec3right {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(/public/img/images/service-right-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec3lefttop h4 {
+    color:#0bd3ee;
+    margin-bottom: 0px;
+   
+
+}
+
+
+.sec3lefttop h1 {
+    color: white;
+    font-size: 35px;
+    
+}
+
+.sec3lefttop p {
+    color: lightgray;
+    font-size:12px
+    
+}
+
+.TopIT {
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+.sec3leftbot {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-bottom: 70px;
+}
+
+.sec3leftbot1 {
+    
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.sec3leftbot1 p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.percent85 {
+    font-size: 25px;
+    
+
+    width: 100px;
+    height: 100px;
+    border: solid 3px skyblue;
+    border-radius: 50%;
+}
+
+.sec3leftbot2 {
+    
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.sec3leftbot2 p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.percent78 {
+    font-size: 25px;
+    
+    width: 100px;
+    height: 100px;
+    border: solid 3px skyblue;
+    border-radius: 50%;
+}
+
+.sec3leftbot3 {
+    
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.sec3leftbot3 p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.percent64 {
+    font-size: 25px;
+    width: 100px;
+    height: 100px;
+    border: solid 3px skyblue;
+    border-radius: 50%;
+}
 
 
 
