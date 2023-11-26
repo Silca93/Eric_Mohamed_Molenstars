@@ -52,12 +52,14 @@ header {
 
 .nav {
     color: antiquewhite;
+    text-decoration: none;
 }
 
 .contactUs {
     width: 100px;
     height: 40px;
     background-color: #0bd3ee;
+    color: white;
     border-radius: 20px;
     border: none;
     
@@ -101,11 +103,19 @@ header {
     align-items: center;
     margin: 0px 0px;
     background-color: #0bd3ee;
+    box-sizing: border-box;
+    color: white;
     height:40px ;
     width: 110px ;
     border-radius: 20px;
     border: none;
+    transition-duration: 0.1s;
     
+}
+
+.start_contact:hover {
+    background-color: transparent;
+    border: solid 2px skyblue;
 }
 
 .contact_start {
@@ -113,12 +123,20 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0px 0px;
+    box-sizing: border-box;
     background-color: #2053a1;
+    color: white;
     height:40px ;
     width: 100px ;
     border-radius: 20px;
     border: none;
+    transition-duration: 0.1s;
     
+}
+
+.contact_start:hover {
+    background-color: transparent;
+    border: solid 2px skyblue;
 }
 
 .headerbotright {
@@ -241,47 +259,19 @@ header {
     background-color: #16246f;
     border-radius: 10px;
     padding: 15px 30px;
+    transition-duration: 0.1s;
+    transition: transform 0.3s ease-out;
 }
 
-.img2{
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
+.img1:hover {
+
+ background-color: #0bd3ee;
+ transform: translateY(-10px);
+
+
 }
 
-.img3 {
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
-}
 
-.img4 {
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
-}
-
-.img5 {
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
-}
-
-.img6 {
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
-}
 
 
 
@@ -601,7 +591,9 @@ header {
 
 .sec3right {
     width: 50%;
+    height: auto;
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     background-image: url(/public/img/images/service-right-bg-img.png);
     background-size: cover;
@@ -730,7 +722,7 @@ header {
 }
 
 .Bluebanner {
-    width: 50%;
+    
     color: white;
     display: flex;
     flex-direction: column;
@@ -738,7 +730,10 @@ header {
     align-items:start;
     background-color:#0bd3ee;
     margin-top: 420px;
-    margin-left: 380px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
     border-top-left-radius: 15px;
     
    
