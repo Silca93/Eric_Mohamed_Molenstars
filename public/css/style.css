@@ -389,6 +389,11 @@ header {
     
 }
 
+.sec2top h1 {
+    font-size: 40px;
+    padding: 2px 20px;
+}
+
 .wedo {
     color: #0bd3ee;
     margin-bottom: 0px;
@@ -429,6 +434,10 @@ header {
     padding-top: 40px;
 }
 
+.sec2mid1:hover .itemimg {
+    transform: translateY(-10px);
+}
+
 .itemimg {
     width: 40%;
     height: 30%;
@@ -446,12 +455,57 @@ header {
     padding-top: 40px;
 }
 
+.sec2mid2:hover .itemimg {
+    transform: translateY(-10px);
+}
+
 .itemimg {
     width: 40%;
     height: 30%;
+    transition: transform 0.3s ease-out;
+}
+
+.sec2mid3:hover .itemimg {
+    transform: translateY(-10px);
 }
 
 .sec2mid3 {
+    background-color: #17246f;
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 20px 20px;
+    padding-top: 40px;
+    transition-duration: 0.1s;
+}
+
+.sec2mid4:hover {
+    border: solid 2px skyblue;
+}
+
+.sec2mid4:hover .itemimg {
+    transform: translateY(-10px);
+}
+
+.sec2mid3:hover {
+    border: solid 2px skyblue;
+}
+
+.sec2mid2:hover {
+    border: solid 2px skyblue;
+}
+
+.sec2mid1:hover {
+    border: solid 2px skyblue;
+}
+
+
+
+.sec2mid4 {
     background-color: #17246f;
     width: 200px;
     height: 250px;
@@ -463,27 +517,7 @@ header {
     padding-top: 40px;
 }
 
-.itemimg {
-    width: 40%;
-    height: 30%;
-}
 
-.sec2mid4 {
-    background-color: #17246f;
-    width: 200px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border-radius: 15px;
-    padding: 30px 25px;
-    padding-top: 40px;
-}
-
-.itemimg {
-    width: 40%;
-    height: 30%;
-}
 
 .homeoffice {
     margin-top: -20px;
@@ -506,7 +540,30 @@ header {
     border: none;
     color: white;
     margin-bottom: 80px;
+    transition-duration: 0.1s;
+    box-sizing: border-box;
 }
+
+.Getstartedbutton:hover {
+    background-color: transparent;
+    border: 2px solid skyblue;
+}
+
+
+@media (max-width: 400px) {
+    .sec2top h1 {
+        font-size: 20px;
+    }    
+
+}
+
+@media (max-width: 425px) {
+    .sec2top h1 {
+        font-size: 25px;
+    }
+}
+
+
 
 
 /*----------- Fin de la sec 2 ------- pas besoin de respoonsive ici --------debut sec3----*/
@@ -544,8 +601,6 @@ header {
 
 .sec3right {
     width: 50%;
-    max-width: 50%;
-    min-width: 375px;
     display: flex;
     flex-wrap: wrap;
     background-image: url(/public/img/images/service-right-bg-img.png);
