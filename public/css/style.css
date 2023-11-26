@@ -1418,6 +1418,7 @@ header {
     flex-direction: column;
     gap: 14vw;
     flex-wrap: wrap;
+    font-family: myFont;
 }
 
 .sec5-1{
@@ -1541,7 +1542,7 @@ textarea::placeholder{
     z-index: 1;
     position: absolute;
     text-align: left;
-    font-family: Georgia;
+    font-family: myFont;
     margin-left: 5%;
     left: 0;
     right: 1;
@@ -1728,6 +1729,7 @@ form{
     align-items: center;
     justify-content: center;
     height: 50vw;
+    font-family: myFont;
 }
 
 .sec4-div1{
