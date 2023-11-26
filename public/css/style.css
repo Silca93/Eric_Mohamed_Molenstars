@@ -279,7 +279,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     background-image: url(/public/img/images/dots-img.png); 
     background-repeat: no-repeat;
     background-position: 1250px;
@@ -350,7 +349,17 @@ header {
 /*---------------------fin du css pour section 1------------debut du responsive---*/
 
 
-
+@media (max-width:768px) {
+    .sec1bot {
+        flex-wrap: wrap;
+        
+    }
+    .sec1botleft {width: auto;
+        justify-items: center;
+        align-items: center;
+        margin-right: 70px;
+    }
+}
 
 
 
@@ -572,9 +581,9 @@ header {
     flex-direction: column;
     background-color:#0a1650;
     background-image: url(/public/img/images//dots-img2.png);
-    background-size: 230px 300px;
+    background-size: 150px 200px;
     background-repeat: no-repeat;
-    background-position: 0 20%;
+    background-position: 0 30%;
     margin-top: 100px;
     
     
@@ -588,6 +597,7 @@ header {
     justify-content: center;
     align-items:flex-start;
     margin-left: auto;
+    margin-right: 20px;
     margin-top: -40px;
     text-align: start;
     
