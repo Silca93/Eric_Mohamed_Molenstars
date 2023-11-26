@@ -3,7 +3,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100dvw;
-    background-color: black;
+    background-color: #0a1650;;
     overflow-x: hidden;
     font-family: myFont;
 
@@ -151,8 +151,8 @@ header {
 
 
 .image-pc {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     margin-right: 100px;
     margin-bottom: 30px;
     margin-left: 0px;
