@@ -5,8 +5,6 @@ header {
     width: 100dvw;
     background-color: black;
     overflow-x: hidden;
-    
-    
     font-family: myFont;
 
 }
@@ -546,6 +544,8 @@ header {
 
 .sec3right {
     width: 50%;
+    max-width: 50%;
+    min-width: 375px;
     display: flex;
     flex-wrap: wrap;
     background-image: url(/public/img/images/service-right-bg-img.png);
@@ -672,6 +672,45 @@ header {
     height: 100px;
     border: solid 3px skyblue;
     border-radius: 50%;
+}
+
+.Bluebanner {
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:start;
+    background-color:#0bd3ee;
+    margin-top: 420px;
+    margin-left: 380px;
+    border-top-left-radius: 15px;
+    
+   
+}
+
+.Bluebanner p {
+    padding: 2px 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.Bluebanner h3 {
+    padding: 2px 30px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.iconbanner {
+    z-index: 4;
+    color: whitesmoke;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 70px;
+    height: 55px;
+    padding-left: 20px;
 }
 
 
