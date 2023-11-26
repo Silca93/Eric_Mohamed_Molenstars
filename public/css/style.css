@@ -3,7 +3,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100dvw;
-    background-color: black;
+    background-color: #0a1650;;
     overflow-x: hidden;
     font-family: myFont;
 
@@ -12,8 +12,8 @@ header {
 
 
 .logoheader {
-   width: 40;
-   height: 40%;
+   width: 50;
+   height: 60%;
    margin: 30px 10px;
    margin-left: 100px;
 }
@@ -52,12 +52,14 @@ header {
 
 .nav {
     color: antiquewhite;
+    text-decoration: none;
 }
 
 .contactUs {
     width: 100px;
     height: 40px;
     background-color: #0bd3ee;
+    color: white;
     border-radius: 20px;
     border: none;
     
@@ -101,11 +103,19 @@ header {
     align-items: center;
     margin: 0px 0px;
     background-color: #0bd3ee;
+    box-sizing: border-box;
+    color: white;
     height:40px ;
     width: 110px ;
     border-radius: 20px;
     border: none;
+    transition-duration: 0.1s;
     
+}
+
+.start_contact:hover {
+    background-color: transparent;
+    border: solid 2px skyblue;
 }
 
 .contact_start {
@@ -113,16 +123,25 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0px 0px;
+    box-sizing: border-box;
     background-color: #2053a1;
+    color: white;
     height:40px ;
     width: 100px ;
     border-radius: 20px;
     border: none;
+    transition-duration: 0.1s;
     
+}
+
+.contact_start:hover {
+    background-color: transparent;
+    border: solid 2px skyblue;
 }
 
 .headerbotright {
     width: 50%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,10 +151,12 @@ header {
 
 
 .image-pc {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     margin-right: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+
 }
 
 
@@ -225,6 +246,7 @@ header {
 
 .partners {
     color: #0bd3ee;
+    margin-top: 50px;
 }
 .sec1mid {
     display: flex;
@@ -241,47 +263,19 @@ header {
     background-color: #16246f;
     border-radius: 10px;
     padding: 15px 30px;
+    transition-duration: 0.1s;
+    transition: transform 0.3s ease-out;
 }
 
-.img2{
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
+.img1:hover {
+
+ background-color: #0bd3ee;
+ transform: translateY(-10px);
+
+
 }
 
-.img3 {
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
-}
 
-.img4 {
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
-}
-
-.img5 {
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
-}
-
-.img6 {
-    width: 80px;
-    height: 80px;
-    background-color: #16246f;
-    border-radius: 10px;
-    padding: 15px 30px;
-}
 
 
 
@@ -289,7 +283,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     background-image: url(/public/img/images/dots-img.png); 
     background-repeat: no-repeat;
     background-position: 1250px;
@@ -360,7 +353,17 @@ header {
 /*---------------------fin du css pour section 1------------debut du responsive---*/
 
 
-
+@media (max-width:768px) {
+    .sec1bot {
+        flex-wrap: wrap;
+        
+    }
+    .sec1botleft {width: auto;
+        justify-items: center;
+        align-items: center;
+        margin-right: 70px;
+    }
+}
 
 
 
@@ -577,11 +580,14 @@ header {
 }
 .sec3left {
     width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color:#0a1650;
     background-image: url(/public/img/images//dots-img2.png);
-    background-size: 230px 300px;
+    background-size: 150px 200px;
     background-repeat: no-repeat;
-    background-position: 0 20%;
+    background-position: 0 30%;
     margin-top: 100px;
     
     
@@ -593,15 +599,28 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:start;
-    margin-left: 350px;
+    align-items:flex-start;
+    margin-left: auto;
+    margin-right: 20px;
     margin-top: -40px;
+    text-align: start;
     
+    
+}
+
+.sec3lefttop h1 {
+    text-align: start;
+}
+
+.sec3lefttop p {
+    text-align:inherit;
 }
 
 .sec3right {
     width: 50%;
+    height: auto;
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     background-image: url(/public/img/images/service-right-bg-img.png);
     background-size: cover;
@@ -664,8 +683,6 @@ header {
 
 .percent85 {
     font-size: 25px;
-    
-
     width: 100px;
     height: 100px;
     border: solid 3px skyblue;
@@ -730,7 +747,7 @@ header {
 }
 
 .Bluebanner {
-    width: 50%;
+    
     color: white;
     display: flex;
     flex-direction: column;
@@ -738,7 +755,10 @@ header {
     align-items:start;
     background-color:#0bd3ee;
     margin-top: 420px;
-    margin-left: 380px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
     border-top-left-radius: 15px;
     
    
