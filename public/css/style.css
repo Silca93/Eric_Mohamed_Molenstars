@@ -1398,6 +1398,7 @@ header {
     flex-direction: column;
     gap: 14vw;
     flex-wrap: wrap;
+    font-family: myFont;
 }
 
 .sec5-1{
@@ -1442,7 +1443,6 @@ header {
     justify-content: center;
     flex-direction: row-reverse;
     gap: 3%;
-    flex-wrap: wrap;
 }
 
 .card{
@@ -1522,7 +1522,7 @@ textarea::placeholder{
     z-index: 1;
     position: absolute;
     text-align: left;
-    font-family: Georgia;
+    font-family: myFont;
     margin-left: 5%;
     left: 0;
     right: 1;
@@ -1709,6 +1709,7 @@ form{
     align-items: center;
     justify-content: center;
     height: 50vw;
+    font-family: myFont;
 }
 
 .sec4-div1{
