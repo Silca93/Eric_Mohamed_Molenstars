@@ -1555,7 +1555,7 @@ textarea::placeholder{
 
 body{
     margin: 0;
-    background-color: black;
+    background-color: #0a1650;
 }
 footer h4{
     font-family: MyFont;
@@ -1566,7 +1566,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(/Eric_Mohamed_Projet_Molenstars/MolenStars/MolenStars/Assets/images/banner-overlay-img.png);
+    background-image: url(/public/img/images/overly-img.png);
     background-size: 150%;
     background-position: 90%;
     flex-wrap: wrap;
