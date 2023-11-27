@@ -29,6 +29,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 100px;
 }
@@ -170,6 +171,13 @@ header {
 
 }
 
+@media (min-width:1024px) {
+
+    .headerbot {flex-wrap: nowrap;
+
+    }
+}
+
 
 @media (max-width:768px) {
     .headertopright {margin-right: 50px;
@@ -186,6 +194,12 @@ header {
 
     .headerbotleft {margin-left: 240px;
 
+    }    
+     .image-pc { width: 70%;
+                height: 70%;
+                margin-top: 50px;
+                margin-left: 50px;
+
     }
 }
 /* ---------responsive tablette fin, debut responsive mobile L-----*/
@@ -200,11 +214,11 @@ header {
                     margin-right: 150px;
     }
     
-    .image-pc {margin-right: 400px;
-                z-index: 0;
+    .image-pc {margin-right: 70px;
+                
                 width: 100%;
                 height: 100%;
-                opacity: calc(0.5);
+                
     } 
 
     
@@ -213,6 +227,10 @@ header {
                 margin-left: -50px;
                 margin-top: -50px;
     }
+
+     .headerbotleft {
+                margin-left: 30px;
+     }
 
 
 
