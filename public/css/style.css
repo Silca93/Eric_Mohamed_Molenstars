@@ -1,5 +1,5 @@
 header {
-    background-image: url(/public/img/images/banner-overlay-img.png);
+    background-image: url(./public/img/images/banner-overlay-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100dvw;
@@ -301,7 +301,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/public/img/images/dots-img.png); 
+    background-image: url(./public/img/images/dots-img.png); 
     background-repeat: no-repeat;
     background-position: 1250px;
     z-index: 3;
@@ -392,7 +392,7 @@ header {
 
 .sec2 {
     font-family: myFont;
-    background-image: url(/public/img/images/banner-overlay-img.png);
+    background-image: url(./public/img/images/banner-overlay-img.png);
     background-repeat: no-repeat;
     background-position: -300px -200px;
     
@@ -602,7 +602,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color:#0a1650;
-    background-image: url(/public/img/images//dots-img2.png);
+    background-image: url(./public/img/images//dots-img2.png);
     background-size: 150px 200px;
     background-repeat: no-repeat;
     background-position: 0 30%;
@@ -640,7 +640,7 @@ header {
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    background-image: url(/public/img/images/service-right-bg-img.png);
+    background-image: url(./public/img/images/service-right-bg-img.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1604,7 +1604,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(/public/img/images/overly-img.png);
+    background-image: url(./public/img/images/overly-img.png);
     background-size: 150%;
     background-position: 90%;
     flex-wrap: wrap;
@@ -1739,7 +1739,7 @@ form{
 /*----------------------<DEBUT SECTION4>----------------------------------*/
 
 .sec4{
-    background-image: url(/public/img/images/banner-overlay-img.png);
+    background-image: url(./public/img/images/banner-overlay-img.png);
     background-repeat: no-repeat;
     background-position: -300px -200px;
     background-color: #122061ff ;
