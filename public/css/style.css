@@ -263,18 +263,21 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: antiquewhite;
+    color: white;
     flex-wrap: wrap;
     margin-bottom: -20px;
+    margin-top: 0px;
 }
 
 .workingwith {
-    font-size: 30px;
+    font-size: 50px;
+    margin-top: 0px;
 }
 
 .partners {
     color: #0bd3ee;
     margin-top: 50px;
+    letter-spacing: 0.5em;
 }
 .sec1mid {
     display: flex;
@@ -286,10 +289,10 @@ header {
 }
 
 .img1 {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 110px;
     background-color: #16246f;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px 30px;
     transition-duration: 0.1s;
     transition: transform 0.3s ease-out;
@@ -313,7 +316,7 @@ header {
     align-items: center;
     background-image: url(../img/images/dots-img.png); 
     background-repeat: no-repeat;
-    background-position: 1250px;
+    background-position: 1630px;
     z-index: 3;
     margin-top: 200px;
     
@@ -335,28 +338,32 @@ header {
     width: 70%;
 }
 .sec1botright {
-    color: antiquewhite;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
     width: 50%;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: -30px;
     margin-bottom: 100px;
 }
 
 .sec1botright h4 {
     color:#0bd3ee;
+    letter-spacing: 0.4em;
+    font-weight: 100;
+    font-size: 14px;
     
 }
 
 .sec1botright p {
-    font-size: 12px;
+    font-size: 14px;
+    color: #667aba;
 }
 
 .sec1botright h1 {
-    font-size: 35px;
+    font-size: 45px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -402,9 +409,10 @@ header {
 
 .sec2 {
     font-family: myFont;
-    background-image: url(../public/img/images/banner-overlay-img.png);
+    background-image: url(../img/images/banner-overlay-img.png);
     background-repeat: no-repeat;
-    background-position: -300px -200px;
+    background-size: cover;
+    background-position: -700px -200px;
     
     
     
@@ -429,6 +437,7 @@ header {
     color: #0bd3ee;
     margin-bottom: 0px;
     margin-top: 70px;
+    letter-spacing: 0.4em;
 }
 
 .sec2mid{
