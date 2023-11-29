@@ -2,6 +2,7 @@ header {
     background-image: url(../img/images/banner-overlay-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: -60px;
     width: 100dvw;
     background-color: #0a1650;;
     overflow-x: hidden;
@@ -12,10 +13,12 @@ header {
 
 
 .logoheader {
-   width: 50;
-   height: 60%;
-   margin: 30px 10px;
-   margin-left: 100px;
+   width: 60;
+   height: 65%;
+   padding-top: 50px;
+   margin-left: 200px;
+  
+   
 }
 
 .headertop {
@@ -38,30 +41,33 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 45%;
     
 }
 
 .headertopright {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    width: 50%;
-    margin-right: 300px;
+    gap: 70px;
+    width: 55%;
+    margin-top: 50px;
+    margin-right: 200px;
+    
     
 }
 
 .nav {
-    color: antiquewhite;
+    color: white;
     text-decoration: none;
 }
 
 .contactUs {
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     background-color: #0bd3ee;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     
     
@@ -74,28 +80,32 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items:start;
-    margin-left: 300px;
-    color: antiquewhite;
+    padding-top: 50px;
+    margin-left: 400px;
+    color: white;
     z-index: 1;
 
 }
 
 .headerbotleft h1 {
     
-    margin-top: -20px;
-    font-size: 50px;
+    margin-top: -30px;
+    font-size: 60px;
+    
 }
 
 .headerbotleft p {
     
     color: lightblue;
     margin-bottom: 40px;
+    margin-top: -10px;
+    line-height: 2em;
 }
 
 
 .start_button {
     display: flex;
-    gap: 15px
+    gap: 20px
 }
 
 .start_contact {
@@ -106,9 +116,9 @@ header {
     background-color: #0bd3ee;
     box-sizing: border-box;
     color: white;
-    height:40px ;
-    width: 110px ;
-    border-radius: 20px;
+    height:50px ;
+    width: 150px ;
+    border-radius: 30px;
     border: none;
     transition-duration: 0.1s;
     
@@ -127,9 +137,9 @@ header {
     box-sizing: border-box;
     background-color: #2053a1;
     color: white;
-    height:40px ;
-    width: 100px ;
-    border-radius: 20px;
+    height:50px ;
+    width: 150px ;
+    border-radius: 30px;
     border: none;
     transition-duration: 0.1s;
     
@@ -152,11 +162,11 @@ header {
 
 
 .image-pc {
-    width: 90%;
-    height: 90%;
-    margin-right: 100px;
+    width: 100%;
+    height: 100%;
+    margin-right: 340px;
     margin-bottom: 30px;
-    margin-left: 0px;
+    margin-top: 50px;
 
 }
 
