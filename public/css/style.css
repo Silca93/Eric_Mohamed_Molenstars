@@ -96,7 +96,7 @@ header {
 
 .headerbotleft p {
     
-    color: lightblue;
+    color: #667aba;
     margin-bottom: 40px;
     margin-top: -10px;
     line-height: 2em;
@@ -285,25 +285,37 @@ header {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-
+    
 }
 
 .img1 {
-    width: 100px;
-    height: 110px;
+    
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+
+.image1 {
     background-color: #16246f;
     border-radius: 15px;
     padding: 15px 30px;
-    transition-duration: 0.1s;
-    transition: transform 0.3s ease-out;
+    width: 100px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: ease;
 }
 
-.sec1mid:hover .img1 {
+.image1:hover .img1 {
 
- background-color: #0bd3ee;
- transform: translateY(-10px);
+ /* background-color: #0bd3ee; */
+ transform: translateY(-15px);
+ 
+}
 
-
+.image1:hover {
+    background-color:#0bd3ee;
 }
 
 
@@ -412,7 +424,8 @@ header {
     background-image: url(../img/images/banner-overlay-img.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -700px -200px;
+    backgroun
+    background-position: -220px -100px;
     
     
     
@@ -429,7 +442,7 @@ header {
 }
 
 .sec2top h1 {
-    font-size: 40px;
+    font-size: 43px;
     padding: 2px 20px;
 }
 
@@ -445,7 +458,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     margin-bottom: 30px;
 }
 
@@ -454,7 +467,7 @@ header {
 }
 
 .sec2mid p {
-    color: lightgray; 
+    color: #667aba; 
     opacity: calc(0.5);
    
 
@@ -464,13 +477,14 @@ header {
 
 .sec2mid1 {
     background-color: #17246f;
-    width: 200px;
+    width: 190px;
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     border-radius: 15px;
     padding: 20px 20px;
+    padding-bottom: 30px;
     padding-top: 40px;
 }
 
@@ -479,19 +493,20 @@ header {
 }
 
 .itemimg {
-    width: 40%;
+    width: 10px;
     height: 30%;
 }
 
 .sec2mid2 {
     background-color: #17246f;
-    width: 200px;
+    width: 190px;
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     border-radius: 15px;
     padding: 20px 20px;
+    padding-bottom: 30px;
     padding-top: 40px;
 }
 
@@ -511,9 +526,9 @@ header {
 
 .sec2mid3 {
     background-color: #17246f;
-    width: 200px;
+    width: 190px;
     height: 250px;
-    overflow: hidden;
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -524,7 +539,7 @@ header {
 }
 
 .sec2mid4:hover {
-    border: solid 2px skyblue;
+    outline: solid 2px skyblue;
 }
 
 .sec2mid4:hover .itemimg {
@@ -532,22 +547,68 @@ header {
 }
 
 .sec2mid3:hover {
-    border: solid 2px skyblue;
+    outline: solid 2px skyblue;
 }
 
 .sec2mid2:hover {
-    border: solid 2px skyblue;
+    outline: solid 2px skyblue;
 }
 
 .sec2mid1:hover {
-    border: solid 2px skyblue;
+    outline: solid 2px skyblue;
 }
+
+.sec2mid1 h4 {
+    line-height: 1.5em;
+    margin-bottom: 0px;
+    
+}
+
+.sec2mid1 p {
+    line-height: 1.5em;
+    
+    
+}
+
+.sec2mid2 h4 {
+    line-height: 1.5em;
+    margin-bottom: 0px;
+    
+}
+
+.sec2mid2 p {
+    line-height: 1.5em;
+    
+}
+
+.sec2mid3 h4 {
+    line-height: 1.5em;
+    margin-bottom: 0px
+    
+}
+
+.sec2mid3 p {
+    line-height: 1.5em;
+    
+}
+
+.sec2mid4 h4 {
+    line-height: 1.5em;
+    margin-bottom: 0px
+    
+}
+
+.sec2mid4 p {
+    line-height: 1.5em;
+    
+}
+
 
 
 
 .sec2mid4 {
     background-color: #17246f;
-    width: 200px;
+    width: 190px;
     height: 250px;
     display: flex;
     flex-direction: column;
