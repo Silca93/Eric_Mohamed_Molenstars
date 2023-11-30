@@ -298,7 +298,7 @@ header {
     transition: transform 0.3s ease-out;
 }
 
-.img1:hover {
+.sec1mid:hover .img1 {
 
  background-color: #0bd3ee;
  transform: translateY(-10px);
