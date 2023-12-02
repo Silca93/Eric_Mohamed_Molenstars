@@ -69,11 +69,15 @@ header {
     color: white;
     border-radius: 30px;
     border: none;
-    
+        
     
     
 }
 
+.contactUs a {
+    text-decoration: none;
+    color: white;
+}
 .headerbotleft {
     width: 50%;
     display: flex;
@@ -272,6 +276,9 @@ header {
 .workingwith {
     font-size: 50px;
     margin-top: 0px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .partners {
@@ -283,7 +290,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+    row-gap: 20px;
     flex-wrap: wrap;
     
 }
@@ -303,7 +311,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-left: 10px;
+    margin-right: 10px;    
     transition: ease;
 }
 
@@ -356,7 +365,7 @@ header {
     align-items:flex-start;
     justify-content: center;
     width: 50%;
-    margin-left: 60px;
+    margin-left: 30px;
     margin-top: -30px;
     margin-bottom: 100px;
 }
@@ -366,6 +375,7 @@ header {
     letter-spacing: 0.4em;
     font-weight: 100;
     font-size: 14px;
+    text-align:left;
     
 }
 
@@ -378,6 +388,7 @@ header {
     font-size: 45px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .sec1botright li {
@@ -421,15 +432,16 @@ header {
 
 .sec2 {
     font-family: myFont;
-    background-image: url(../img/images/banner-overlay-img.png);
+    background-image: url(../img/images/overly-img.png);
     background-repeat: no-repeat;
+    background-color: #172364;
+    background-position: 0px;
     background-size: cover;
-    backgroun
-    background-position: -220px -100px;
+    /* background-position: -220px -100px; */
     
     
     
-    }
+  }
 
 .sec2top {
     color: white;
@@ -444,6 +456,7 @@ header {
 .sec2top h1 {
     font-size: 43px;
     padding: 2px 20px;
+    text-align: center;
 }
 
 .wedo {
@@ -458,7 +471,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 15px;
     margin-bottom: 30px;
 }
 
@@ -484,6 +497,8 @@ header {
     justify-content: flex-start;
     border-radius: 15px;
     padding: 20px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding-bottom: 30px;
     padding-top: 40px;
 }
@@ -508,6 +523,8 @@ header {
     padding: 20px 20px;
     padding-bottom: 30px;
     padding-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sec2mid2:hover .itemimg {
@@ -528,7 +545,8 @@ header {
     background-color: #17246f;
     width: 190px;
     height: 250px;
-    
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -616,6 +634,8 @@ header {
     border-radius: 15px;
     padding: 20px 20px;
     padding-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -683,10 +703,10 @@ header {
     flex-direction: column;
     background-color:#0a1650;
     background-image: url(../img/images/dots-img2.png);
-    background-size: 150px 200px;
+    background-size: 220px 320px;
     background-repeat: no-repeat;
     background-position: 0 30%;
-    margin-top: 100px;
+    margin-top: 120px;
     
     
     
@@ -728,7 +748,9 @@ header {
 .sec3lefttop h4 {
     color:#0bd3ee;
     margin-bottom: 0px;
-   
+    letter-spacing: 0.4em;
+    font-weight: 100;
+    font-size: smaller;
 
 }
 
@@ -740,8 +762,10 @@ header {
 }
 
 .sec3lefttop p {
-    color: lightgray;
-    font-size:12px
+    color: #667aba;
+    font-size:12px;
+    line-height: 2em;
+    
     
 }
 
@@ -776,15 +800,26 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
+    font-stretch:narrower;
+    font-weight: 100;
     
 }
 
+.Loremipsum {
+    margin-bottom: 30px;
+}
+
 .percent85 {
-    font-size: 25px;
+    font-size: 30px;
     width: 100px;
     height: 100px;
     border: solid 3px skyblue;
     border-radius: 50%;
+    margin-top: 40px;
+    font-stretch:narrower;
+    
+    
 }
 
 .sec3leftbot2 {
@@ -804,11 +839,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
     
 }
 
 .percent78 {
-    font-size: 25px;
+    font-size: 30px;
     
     width: 100px;
     height: 100px;
@@ -833,15 +869,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
     
 }
 
 .percent64 {
-    font-size: 25px;
+    font-size: 30px;
     width: 100px;
     height: 100px;
     border: solid 3px skyblue;
     border-radius: 50%;
+    
 }
 
 .Bluebanner {
@@ -852,7 +890,9 @@ header {
     justify-content: flex-end;
     align-items:start;
     background-color:#0bd3ee;
-    margin-top: 420px;
+    
+    
+    
     position: absolute;
     bottom: 0;
     right: 0;
