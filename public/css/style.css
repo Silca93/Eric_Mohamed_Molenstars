@@ -304,14 +304,28 @@ header {
 }
 /* ---------responsive tablette fin, debut responsive mobile L-----*/
 
-@media (max-width:426px) {
+@media (max-width:500px) {
+     .headertop {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+     }
+     .start_button {
+        
+        gap: 10px
+        
+    }
+
     .headertopright {display: flex;
                     flex-direction: column;
                     margin-top: 20px;
                     justify-content: center;
                     align-items: center;
                     gap: 10px;
-                    margin-right: 150px;
+                    
     }
     
     .image-pc {                
@@ -324,10 +338,10 @@ header {
     }
 
     
-    .logoheader {width: 30;
-                height: 30%;
-                margin-left: -40px;
-                margin-top: -30px;
+    .logoheader {width: 110px;
+                height: 100px;
+                margin-left: 0px;
+                
     }
 
      .headerbotleft {
@@ -336,6 +350,7 @@ header {
      
      .menu-burger {
         display: block;
+        margin-left: 100px;
 
      }
 
@@ -351,6 +366,31 @@ header {
 
 }
 
+@media (max-width:425px) {
+    .start_button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 55px;
+    }
+
+    .headerbotleft {
+        text-align: center ;
+        line-height: 3em;
+    }
+
+    .headerbotleft p {
+        text-align: center ;
+        line-height: 1em;
+    }
+}
+
+@media (max-width:375px) {
+    .start_button {
+        margin-left: 40px;
+    }
+}
 
 
 
