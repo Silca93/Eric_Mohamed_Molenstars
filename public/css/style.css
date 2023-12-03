@@ -618,6 +618,7 @@ header {
     margin-bottom: 0px;
     margin-top: 70px;
     letter-spacing: 0.4em;
+    font-weight: 100;
 }
 
 .sec2mid{
@@ -1080,6 +1081,87 @@ header {
     height: 55px;
     padding-left: 20px;
 }
+/* ----------------------debut responsive sec 3----------------*/
+
+@media (max-width:768px){
+    .sec3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec3left {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    .sec3lefttop {
+        justify-content: center;
+        display: flex;
+        margin-left: 200px;
+        margin-right: 150px;
+    }
+
+    .sec3leftbot {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        
+        padding-right: 0px;
+    }
+
+    .sec3right {
+        display: flex;
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width:500px){
+    .sec3lefttop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+
+    .sec3lefttop h1  {
+        text-align: center;
+    }
+    .sec3lefttop h4 {
+        text-align: center;
+    }
+
+    .sec3lefttop p {
+        text-align: center;
+    }
+ }
+
+    .TopIT {
+        text-align: center;
+        /* margin-left: -60px;
+        padding-left: 0px; */
+    }
+/* }
+
+@media (max-width:425px){
+    .TopIT {
+        margin-left:
+    }
+
+}
+
+@media (max-width:375px) {
+    .TopIT {
+        margin-left: -10px;
+
+    }
+} */
+
 
 
 
