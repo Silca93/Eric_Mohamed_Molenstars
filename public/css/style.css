@@ -381,11 +381,16 @@ header {
     .headerbotleft {
         text-align: center ;
         line-height: 3em;
+        margin-left: 18px;
     }
 
     .headerbotleft p {
         text-align: center ;
         line-height: 1em;
+    }
+
+    .headerbot {
+        display: ;
     }
 }
 
