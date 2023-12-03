@@ -35,6 +35,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 .headertopleft {
@@ -60,6 +61,7 @@ header {
 .nav {
     color: white;
     text-decoration: none;
+    display: flex;
 }
 
 .contactUs {
@@ -68,7 +70,9 @@ header {
     background-color: #0bd3ee;
     color: white;
     border-radius: 30px;
+    margin-right: 50px;
     border: none;
+    cursor: pointer;
         
     
     
@@ -110,6 +114,7 @@ header {
 .start_button {
     display: flex;
     gap: 20px
+    
 }
 
 .start_contact {
@@ -125,12 +130,14 @@ header {
     border-radius: 30px;
     border: none;
     transition-duration: 0.1s;
+    cursor: pointer;
     
 }
 
 .start_contact:hover {
     background-color: transparent;
     border: solid 2px skyblue;
+    
 }
 
 .contact_start {
@@ -146,6 +153,7 @@ header {
     border-radius: 30px;
     border: none;
     transition-duration: 0.1s;
+    cursor: pointer;
     
 }
 
@@ -156,7 +164,7 @@ header {
 
 .headerbotright {
     width: 50%;
-    position: relative;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,35 +174,92 @@ header {
 
 
 .image-pc {
-    width: 100%;
-    height: 100%;
-    margin-right: 340px;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    width: 90%;
+    height: 90%;
+    padding-right: 300px;
+    /* margin-top: 50px; */
+    
 
+}
+
+.menu-burger {
+    display: none;
+    cursor: pointer;
+    background-color: #0bd3ee;
+    height: 30px;
+    width: 50px;
+    border-radius: 3px;
+
+}
+
+.menu-burger span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 5px 10px;
+    background-color:white;
+    /* padding-left: 5px; */
+  
+    
 }
 
 
 /*-------responsive header- start------------------------------*/
 
+@media (max-width:1440px) {
+    .image-pc {
+        padding-right:100px;
+    }
+}
+
+@media (max-width:1200px) {
+    .image-pc {
+        margin-top: 50px;
+    }
+    .headerbotleft {
+        margin-left: 200px;
+    }
+    
+}
+
+
 
 @media (max-width:1024px) {
-    .headertopright {margin-right: 100px;
+    .headertopright {
+        margin-right: 100px;
+        gap: 30px;
 
     }
+    .headerbotleft h1 {
+        font-size: 40px ;
+      
+
+    }
+    .image-pc {
+       
+        padding: 0px;
+    }
+    .logoheader {width: 30;
+        height: 30%;
+        margin-left: -50px;
+        margin-top: -0px;
+}
 
 }
 
-@media (min-width:1024px) {
+@media (min-width:1200px) {
 
     .headerbot {flex-wrap: nowrap;
+        
 
     }
+    
 }
 
 
 @media (max-width:768px) {
-    .headertopright {margin-right: 50px;
+    .headertopright {margin-right: 100px;
+        gap: 15px;
 
 
     }
@@ -202,19 +267,40 @@ header {
 
     }
 
-    .headerbotleft h1 {font-size: 25px;
+    .headerbotleft h1 {font-size: 30px;
 
     }
 
-    .headerbotleft {margin-left: 240px;
+    .headerbotleft {margin-left: 100px;
 
     }    
-     .image-pc { width: 70%;
-                height: 70%;
-                margin-top: 50px;
-                margin-left: 50px;
+     .image-pc { 
+                margin-top: 50px;               
 
     }
+    .contact_start {
+        width: 100px;
+        height: 35px;
+    }
+    .start_contact {
+        width: 100px;
+        height: 35px;
+    }
+    .headerbotleft p {
+        line-height: 1.2em;
+        font-size: smaller;
+        text-align: start ;
+    }
+    .logoheader {width: 30;
+        height: 30%;
+        margin-left: -50px;
+        margin-top: -0px;
+    }
+    .sec1botleft {
+        padding-right: 50px;
+    }
+    
+
 }
 /* ---------responsive tablette fin, debut responsive mobile L-----*/
 
@@ -228,27 +314,43 @@ header {
                     margin-right: 150px;
     }
     
-    .image-pc {margin-right: 70px;
-                
+    .image-pc {                
                 width: 100%;
                 height: 100%;
                 
     } 
+    .sec1botleft {
+        padding-right: 0px;
+    }
 
     
-    .logoheader {width: 20;
-                height: 20%;
-                margin-left: -50px;
-                margin-top: -50px;
+    .logoheader {width: 30;
+                height: 30%;
+                margin-left: -40px;
+                margin-top: -30px;
     }
 
      .headerbotleft {
                 margin-left: 30px;
      }
+     
+     .menu-burger {
+        display: block;
+
+     }
+
+     .nav {
+        display: none;
+     }
+
+     .contactUs {
+        display: none;
+     }
 
 
 
 }
+
 
 
 
@@ -343,6 +445,7 @@ header {
     
     
     
+    
 }
 
 .sec1botleft {
@@ -357,6 +460,7 @@ header {
 .girl {
     height: 70%;
     width: 70%;
+    
 }
 .sec1botright {
     color: white;
@@ -421,6 +525,16 @@ header {
         align-items: center;
         margin-right: 70px;
     }
+}
+
+@media (max-width:500px) {
+    .sec1botright h1 {
+        font-size: 30px;
+    }
+    .workingwith {
+        font-size: 30px;
+    }
+
 }
 
 
@@ -663,6 +777,7 @@ header {
     margin-bottom: 80px;
     transition-duration: 0.1s;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .Getstartedbutton:hover {
