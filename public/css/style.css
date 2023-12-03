@@ -308,6 +308,10 @@ header {
 /* ---------responsive tablette fin, debut responsive mobile L-----*/
 
 @media (max-width:500px) {
+     header {
+        background-position: -260px -100px;
+     }
+
      .headertop {
         display: flex;
         flex-direction:column;
@@ -389,9 +393,7 @@ header {
         line-height: 1em;
     }
 
-    .headerbot {
-        display: ;
-    }
+    
 }
 
 @media (max-width:375px) {
