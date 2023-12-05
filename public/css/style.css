@@ -379,9 +379,8 @@ header {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: 53px;
+        margin-left: 55px;
     }
-    
 
     .headerbotleft {
         text-align: center ;
@@ -389,30 +388,17 @@ header {
         margin-left: 18px;
     }
 
-    .headerbotleft h1 {
-        margin-right: 10px;
-    }
-        
-    
-
     .headerbotleft p {
         text-align: center ;
         line-height: 1em;
-        margin-right: 10px;
     }
 
     
 }
 
-@media (min-width:375px) and (max-width:424px) {
+@media (max-width:375px) {
     .start_button {
         margin-left: 40px;
-    }
-    .headerbotleft h1 {
-        margin-right: 10px;
-    }
-    .headerbotleft p {
-        margin-right: 10px;
     }
 }
 
